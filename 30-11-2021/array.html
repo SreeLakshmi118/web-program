@@ -1,0 +1,27 @@
+<html>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<script language="javascript" type="text/javascript">
+var cars=["bnw","soda","honda"];
+document.getElementById("demo").innerHTML=cars;
+var len=cars.length;
+document.getElementById("demo1").innerHTML="length is " +len;
+var splice=cars.splice(1,0,"jjj");
+document.getElementById("demo5").innerHTML=splice;
+var sort=cars.sort();
+document.getElementById("demo2").innerHTML=sort;
+var pop=cars.pop();
+document.getElementById("demo3").innerHTML=pop;
+var shift=cars.shift();
+document.getElementById("demo4").innerHTML=shift;
+var slice=cars.slice(0,2);
+document.getElementById("demo6").innerHTML=shift;
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<body>
+<p id="demo"></p>
+<script language="javascript" type="text/javascript">
+function person(first,last,age,eye)
+{
+this.firstname=first;
+this.lastname=last;
+this.age=age;
+this.eye=eye;
+}
+var myfather=new person("john","doe",50,"blue");
+var mymother=new person("sally","rally",48,"green");
+document.getElementById("demo").innerHTML="myfather is"+myfather.age+" my mother is"+mymother.age;
+</script>
+</body>
+</html>

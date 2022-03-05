@@ -1,0 +1,30 @@
+<html> 
+   
+    <body>
+          
+        <button onclick = "Run()"> 
+            Click here
+        </button>
+          
+        <p id = "G" style =
+            "color:white; font-size: 20px; font-weight: bold;">
+        </p>
+          
+        <script>
+           
+            var n = document.getElementById("G");
+            var str = "Click on button to change the background color";
+          
+           
+          
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+              
+            function Run() {
+                changeColor('lightblue');
+                n.innerHTML = "Background Color changed";
+            }         
+        </script> 
+    </body> 
+</html>                    
